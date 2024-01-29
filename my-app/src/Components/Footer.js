@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaPhone, FaMailBulk, FaFacebook, FaTwitter, FaLinkedin } from 'react-icons/fa';
+import { FaHome, FaPhone, FaMailBulk, FaGithub } from 'react-icons/fa';
 import './FooterStyles.css';
 
 const Footer = () => {
@@ -27,9 +27,10 @@ const Footer = () => {
           <h4>About the company</h4>
           <p>I am a fresher React developer in Pakistan. I am working as a Fresher Front end Website Develpoer in the company.</p>
           <div className="social">
-            <FaFacebook size={20} style={{ color: 'white', marginRight: '2rem' }} />
-            <FaTwitter size={20} style={{ color: 'white', marginRight: '2rem' }} />
-            <FaLinkedin size={20} style={{ color: 'white', marginRight: '2rem' }} />
+             <h4>Github </h4>
+        <a href="https://github.com/abuabakar-developer" target='-blank' rel='noopener noorferrer'>
+            <FaGithub size={30} style={{ color: 'white', marginRight: '2rem' }} />
+        </a>
           </div>
         </div>
       </div>
